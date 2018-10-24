@@ -34,7 +34,7 @@ void ApresentarIR(float salario)
 		printf("Valor IR: %.2f\n", ir);
 		printf("Sobrou: %f", salario - ir);
 	}
-	else if (salario <= 3751.05)
+	else if (salario <= 3751.06)
 	{
 		ir = CaulculaIR(salario, 0.15, 354.8);
 		printf("Aliquota: 15%%, deducao: 354.8\n");
@@ -64,7 +64,7 @@ int main()
 	ApresentarIR(salario);*/
 
 
-
+	("Digite seu salario");
 
 	printf("\n\n");
 	system("pause");
